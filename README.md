@@ -316,4 +316,4 @@ No software license has yet been assigned to this research artifact.
 
 ## Citation
 
-Citation metadata will be provided through `CITATION.cff`.
+Citation metadata is provided through `CITATION.cff`.
