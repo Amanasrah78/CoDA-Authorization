@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software or research artifact, please cite it using the metadata below."
+
+title: "CoDA Authorization: Bounded Chain-of-Delegation Authorization for Cross-Domain Industrial Digital Twin Agents"
+
+type: software
+version: 0.1.0
+
+authors:
+  - family-names: "Manasrah"
+    given-names: "Ahmed"
+
+repository-code: "https://github.com/Amanasrah78/CoDA-Authorization"
+
+abstract: >-
+  CoDA is a bounded Chain-of-Delegation authorization framework for
+  cross-domain Industrial Digital Twin agents. This repository provides a
+  reconstructed reference implementation of the CoDA authorization model,
+  including delegation-credential validation, Ed25519 signature verification,
+  bounded delegation depth, monotonic scope reduction, contextual and usage
+  constraints, revocation, short-lived JWT capabilities, Open Policy Agent
+  integration, post-authorization commitment anchoring, functional tests,
+  and reproducible performance benchmarks.
+
+keywords:
+  - authorization
+  - delegation
+  - chain of delegation
+  - industrial digital twin
+  - agentic AI
+  - decentralized identity
+  - capability-based access control
+  - Open Policy Agent
+  - zero trust
+
+license: "NOASSERTION"
