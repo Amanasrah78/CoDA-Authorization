@@ -16,7 +16,7 @@ from .models import (
     AuthorizationRequest,
     DelegationCredential,
 )
-from .policy import LocalPolicyEngine
+from .policy import PolicyEngine
 from .validator import CoDValidator
 
 
@@ -50,7 +50,7 @@ class AuthorizationService:
         self,
         relying_domain: str,
         validator: CoDValidator,
-        policy: LocalPolicyEngine,
+        policy: PolicyEngine,
         capability_service: CapabilityService,
         ledger: MemoryCommitmentLedger,
     ):

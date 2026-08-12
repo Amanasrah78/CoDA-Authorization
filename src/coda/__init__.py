@@ -24,6 +24,7 @@ from .models import (
 )
 from .policy import (
     LocalPolicyEngine,
+    OPAPolicyEngine,
     PolicyDecision,
     PolicyRule,
 )
@@ -48,4 +49,5 @@ __all__ = [
     "PolicyRule",
     "RevocationRegistry",
     "ValidationResult",
+    "OPAPolicyEngine",
 ]
